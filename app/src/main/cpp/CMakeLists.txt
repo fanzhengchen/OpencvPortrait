@@ -18,3 +18,8 @@ set_target_properties(opencv_java3 PROPERTIES IMPORTED_LOCATION ${LIBS}/libopenc
 
 add_library(mixed_sample SHARED jni_part.cpp)
 target_link_libraries(mixed_sample log dl opencv_java3)
+
+add_library(detection_based_tracker SHARED
+DetectionBasedTracker_jni.cpp
+DetectionBasedTracker_jni.h)
+target_link_libraries(detection_based_tracker log dl opencv_java3)

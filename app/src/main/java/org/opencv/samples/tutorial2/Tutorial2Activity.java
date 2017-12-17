@@ -108,24 +108,28 @@ public class Tutorial2Activity extends Activity implements CvCameraViewListener2
         }
     }
 
+    @Override
     public void onDestroy() {
         super.onDestroy();
         if (mOpenCvCameraView != null)
             mOpenCvCameraView.disableView();
     }
 
+    @Override
     public void onCameraViewStarted(int width, int height) {
-        mRgba = new Mat(height, width, CvType.CV_8UC4);
-        mIntermediateMat = new Mat(height, width, CvType.CV_8UC4);
-        mGray = new Mat(height, width, CvType.CV_8UC1);
+        mRgba = new Mat(width, height, CvType.CV_8UC4);
+        mIntermediateMat = new Mat(width, height, CvType.CV_8UC4);
+        mGray = new Mat(width, height, CvType.CV_8UC1);
     }
 
+    @Override
     public void onCameraViewStopped() {
         mRgba.release();
         mGray.release();
         mIntermediateMat.release();
     }
 
+    @Override
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         System.out.println("fffffffff");
         final int viewMode = mViewMode;
@@ -155,6 +159,7 @@ public class Tutorial2Activity extends Activity implements CvCameraViewListener2
         return mRgba;
     }
 
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Log.i(TAG, "called onOptionsItemSelected; selected item: " + item);
 

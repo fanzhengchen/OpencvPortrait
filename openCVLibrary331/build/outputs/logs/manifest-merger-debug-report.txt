@@ -22,16 +22,16 @@ INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/open
 		INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml
 		INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-73
-INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-73
-INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-73
-INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-73
-INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-73
+ADDED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-74
+INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-74
+INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-74
+INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-74
+INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:5-74
 	android:targetSdkVersion
-		ADDED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:41-70
+		ADDED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:42-71
 		INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml
 		INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:15-40
+		ADDED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml:7:15-41
 		INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml
 		INJECTED from /Users/fanzhengchen/AndroidStudioProjects/OpencvWithTesseract/openCVLibrary331/src/main/AndroidManifest.xml

@@ -21,7 +21,7 @@ JNIEXPORT void JNICALL Java_org_opencv_samples_tutorial2_Tutorial2Activity_FindF
     for( unsigned int i = 0; i < v.size(); i++ )
     {
         const KeyPoint& kp = v[i];
-        circle(mRgb, Point(kp.pt.x, kp.pt.y), 10, Scalar(255,0,0,255));
+//        circle(mRgb, Point(kp.pt.x, kp.pt.y), 10, Scalar(255,0,0,255));
     }
 }
 }

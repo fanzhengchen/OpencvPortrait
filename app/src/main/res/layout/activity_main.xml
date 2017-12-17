@@ -37,5 +37,10 @@
         android:text="@string/tutorial3"
         app:layout_constraintTop_toBottomOf="@+id/Tutorial2"/>
 
+    <TextView
+        android:id="@+id/FaceDetection"
+        style="@style/XgnStyle"
+        android:text="@string/face_detection"
+        app:layout_constraintTop_toBottomOf="@id/Tutorial3"/>
 
 </android.support.constraint.ConstraintLayout>
