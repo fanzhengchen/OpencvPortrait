@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Puzzle15Activity"
+        style="@style/XgnStyle"
+        android:text="@string/puzzle_15_activity"/>
+
+    <TextView
+        android:id="@+id/CameraCalibration"
+        style="@style/XgnStyle"
+        android:text="@string/camera_calibration"
+        app:layout_constraintTop_toBottomOf="@+id/Puzzle15Activity"/>
+
+    <TextView
+        android:id="@+id/Tutorial1"
+        style="@style/XgnStyle"
+        android:text="@string/tutorial1"
+        app:layout_constraintTop_toBottomOf="@+id/CameraCalibration"/>
+
+
+    <TextView
+        android:id="@+id/Tutorial2"
+        style="@style/XgnStyle"
+        android:text="@string/tutorial2"
+        app:layout_constraintTop_toBottomOf="@+id/Tutorial1"/>
+
+    <TextView
+        android:id="@+id/Tutorial3"
+        style="@style/XgnStyle"
+        android:text="@string/tutorial3"
+        app:layout_constraintTop_toBottomOf="@+id/Tutorial2"/>
+
+
+</android.support.constraint.ConstraintLayout>
