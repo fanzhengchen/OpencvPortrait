@@ -117,9 +117,9 @@ public class Tutorial2Activity extends Activity implements CvCameraViewListener2
 
     @Override
     public void onCameraViewStarted(int width, int height) {
-        mRgba = new Mat(width, height, CvType.CV_8UC4);
-        mIntermediateMat = new Mat(width, height, CvType.CV_8UC4);
-        mGray = new Mat(width, height, CvType.CV_8UC1);
+        mRgba = new Mat(height, width, CvType.CV_8UC4);
+        mIntermediateMat = new Mat(height, width, CvType.CV_8UC4);
+        mGray = new Mat(height, width, CvType.CV_8UC1);
     }
 
     @Override
